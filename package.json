@@ -1,0 +1,22 @@
+{
+  "name": "umdeditor",
+  "version": "1.0.0",
+  "description": "Useit Markdown Editor in Angular2",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GersonYF/umdEditor.git"
+  },
+  "keywords": [
+    "Markdown"
+  ],
+  "author": "Useit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GersonYF/umdEditor/issues"
+  },
+  "homepage": "https://github.com/GersonYF/umdEditor#readme"
+}
