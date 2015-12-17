@@ -1,22 +1,33 @@
 {
-  "name": "umdeditor",
-  "version": "1.0.0",
+  "name": "umdEditor",
+  "version": "0.0.1",
   "description": "Useit Markdown Editor in Angular2",
-  "main": "app.js",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/GersonYF/umdEditor.git"
+    "url": "git+https://github.com/GersonYF/umdEditor.git"
   },
-  "keywords": [
-    "Markdown"
-  ],
   "author": "Useit",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/GersonYF/umdEditor/issues"
   },
-  "homepage": "https://github.com/GersonYF/umdEditor#readme"
+  "scripts": {
+    "test": "gulp build"
+  },
+  "homepage": "https://github.com/GersonYF/umdEditor#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.6",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-connect": "2.2.0",
+    "gulp-webpack": "1.5.0",
+    "ts-loader": "0.7.1",
+    "typescript": "1.7.3",
+    "webpack": "^1.12.2"
+  }
 }
